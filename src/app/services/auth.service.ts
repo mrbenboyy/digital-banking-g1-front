@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { jwtDecode } from 'jwt-decode';
 import { Observable, throwError } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
